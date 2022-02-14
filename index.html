@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- HTML Meta Tags -->
+    <title>AgenceSpatialeAFPA.com</title>
+    <meta name="description"
+        content="AgenceSpatialeAFPA.com est un site web appartenant a l'AFPA qui sert à promouvoir leur agence spatiale (SAS). Découvrez les futurs missions de l'ASA sur Mars !">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://www.byeindonesia.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="AgenceSpatialeAFPA.com">
+    <meta property="og:description"
+        content="AgenceSpatialeAFPA.com est un site web appartenant a l'AFPA qui sert à promouvoir leur agence spatiale (SAS). Découvrez les futurs missions de l'ASA sur Mars !">
+    <meta property="og:image" content="./assets/img/logo.png">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="byeindonesia.com">
+    <meta property="twitter:url" content="https://www.byeindonesia.com/">
+    <meta name="twitter:title" content="AgenceSpatialeAFPA.com">
+    <meta name="twitter:description"
+        content="AgenceSpatialeAFPA.com est un site web appartenant a l'AFPA qui sert à promouvoir leur agence spatiale (SAS). Découvrez les futurs missions de l'ASA sur Mars !">
+    <meta name="twitter:image" content="./assets/img/logo.png">
+
+    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/img/casque.png" type="image/x-icon">
+
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <!-- Logo du site AgenceSpatialeAFPA.com-->
+        <a class="logo" href="#">
+            <img class="logo__img" src="./assets/img/casque.png" alt="logo en forme de casque de l'AgenceSpatialeAFPA">
+            <div class="logo__text">
+                <img class="logo__title" src="./assets/img/asa-logo-orange.png" alt="logo de AgenceSpatialeAFPA.com">
+                <span class="logo__adresse">AgenceSpatialeAFPA.com</span>
+            </div>
+        </a>
+    </header>
+    <!-- SECTION PRINCIPALE -->
+    <section>
+        <!-- Texte de la landing page -->
+        <div class="contentBox">
+            <h2>décollage imminent !</h2>
+            <p>Notre site web sera bientôt disponnible! Sur ce site, il vous sera possible de suivre nos navettes dans
+                l'espace ainsi que l'avancée de nos futur missions pour aller sur Mars! Pour rester informer sur
+                l'avancement
+                de notre site, vous pouvez d'ores et déjà vous inscrire à notre newsletter grâce au bouton ci-dessous.
+            </p>
+            <div class="countdown">
+                <div class="time">
+                    <div id="day">28</div>
+                    <span>Jours</span>
+                </div>
+                <div class="time">
+                    <div id="hour">28</div>
+                    <span>Heures</span>
+                </div>
+                <div class="time">
+                    <div id="minute">28</div>
+                    <span>Minutes</span>
+                </div>
+                <div class="time">
+                    <div id="second">28</div>
+                    <span>Secondes</span>
+                </div>
+            </div>
+            <div class="cta">
+                <a onclick="toggle();" href="#">Newsletter!</a>
+            </div>
+
+        </div>
+
+        <!-- Image casque et comète -->
+        <div class="imgBox">
+            <img src="./assets/img/logo-comete.png" alt="Logo de l'Agence Spatiale AFPA avec une comète en fond">
+        </div>
+    </section>
+    <!-- NEWSLETTER -->
+    <div class="newsletter">
+        <div class="newsletter__title">
+            <h2>Restez informés !</h2>
+            <p>Pour être informé du lancement</p>
+        </div>
+
+        <!-- Formulaire d'inscription à la newsletter -->
+        <div class="newsletter__form">
+            <form action="">
+                <input type="email" name="" placeholder="*votre@email.com" required>
+                <input type="submit" value="M'inscrire">
+            </form>
+        </div>
+        <!-- Politique de confidentialité RGBD -->
+        <div class="newsletter__policy">
+            <p>En renseignant votre adresse vous acceptez de recevoir chaque semaine nos derniers articles de blog par
+                courrier électronique et vous
+                prenez connaissance de notre <a href="#">Politique de confidencialité</a>
+            </p>
+            <p>
+                Vous pouvez vous désinscrire à tout moment à l'aide des liens de désinscription ou en nous contactant à
+                l'adresse policy@asa.com
+            </p>
+        </div>
+        <!-- Image pour la fermeture du formulaire  -->
+        <img class="close" onclick="toggle();" src="./assets/img/croix.png" alt="Image pour fermer le formulaire">
+    </div>
+    <!-- FOOTER -->
+    <footer>
+        <div class="droits">
+            <span>Tous droits réservés <a href="#" class="mail">© Ald@mail.com</a> | 2022</span>
+        </div>
+    </footer>
+
+    <!-- MON SCRIPT JS -->
+    <script src="./assets/js/main.js"></script>
+    <script type="text/javascript">
+        function toggle() {
+            let newsletter = document.querySelector('.newsletter');
+            newsletter.classList.toggle('active');
+        }
+    </script>
+</body>
+
+<!-- script js -->
+<script src="./assets/js/main.js"></script>
+
+</html>
